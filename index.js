@@ -33,7 +33,8 @@ function getToken() {
 }
 
 function showForkedRepo(repo){
-  $('#results').append(repo)
+  $('#results').append(
+    `<a href="${repo}"> Fork Link </a>`)
 }
 
 e04b3f1bd07fd29d12e78e38e2e055e2e8a08ef1
