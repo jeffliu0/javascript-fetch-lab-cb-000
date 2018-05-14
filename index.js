@@ -31,8 +31,8 @@ function getToken() {
   return 'e04b3f1bd07fd29d12e78e38e2e055e2e8a08ef1'
 }
 
-function showForkedRepo(){
-
+function showForkedRepo(repo){
+  $('#results').append(repp)
 }
 
 e04b3f1bd07fd29d12e78e38e2e055e2e8a08ef1
