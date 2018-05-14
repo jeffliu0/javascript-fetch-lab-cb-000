@@ -22,6 +22,7 @@ function forkRepo() {
   })
     .then(res => {
       console.log(res.url)
+      showForkedRepo(res.url)
     })
 }
 
